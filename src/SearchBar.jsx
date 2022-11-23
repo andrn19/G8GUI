@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiSearchAlt } from 'react-icons/bi'
 import { useNavigate } from "react-router-dom";
+import './Styles.css'
 
 const SearchBar = () => {
 
@@ -11,10 +12,10 @@ const SearchBar = () => {
     }
 
     return (
-        <div class="search-container">
-            <form action="/action_page.php">
+        <div className="search-container">
+            <form className='searchForm'>
                 <input type="text" placeholder="Search.." name="search" />
-                <button type="submit" onClick={() => toResult()}><BiSearchAlt /></button>
+                <button onClick={() => toResult()}><BiSearchAlt /></button>
             </form>
         </div>
     )

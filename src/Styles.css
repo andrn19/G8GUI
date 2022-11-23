@@ -1,0 +1,36 @@
+#filterDiv {
+    background-color: lightgrey;
+}
+
+.filterInput {
+    height: 1.5rem;
+    width: 6rem;
+    margin-right: 0.4rem;
+}
+
+input {
+    margin-right: 0.4rem;
+}
+
+form.searchForm button {
+    width: 3rem;
+    height: 3rem;
+    padding: 0px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.searchForm button:hover {
+    background: #0b7dda;
+}
+
+.card:hover {
+    position: relative;
+    transition-delay: 1s;
+    z-index: 999;
+    scale: 1.5;
+}
