@@ -11,7 +11,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: '',
-        cardImg: './assests/house.PNG'
+        cardImg: 'house'
     },
     {
         housingType: 'apartment',
@@ -25,7 +25,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: '',
-        cardImg: './assests/apartment.PNG'
+        cardImg: 'apartment'
     },
     {
         housingType: 'house',
@@ -39,7 +39,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: '',
-        cardImg: './assests/house.PNG'
+        cardImg: 'house'
     },
     {
         housingType: 'apartment',
@@ -53,7 +53,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: '',
-        cardImg: './assests/apartment.PNG'
+        cardImg: 'apartment'
     },
     {
         housingType: 'house',
@@ -67,7 +67,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: '',
-        cardImg: './assests/house.PNG'
+        cardImg: 'house'
     },
     {
         housingType: 'apartment',
@@ -81,7 +81,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: '',
-        cardImg: './assests/apartment.PNG'
+        cardImg: 'apartment'
     },
     {
         housingType: 'house',
@@ -95,7 +95,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: '',
-        cardImg: './assests/house.PNG'
+        cardImg: 'house'
     },
     {
         housingType: 'apartment',
@@ -109,6 +109,6 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: '',
-        cardImg: './assests/apartment.PNG'
+        cardImg: 'apartment'
     },
 ]
