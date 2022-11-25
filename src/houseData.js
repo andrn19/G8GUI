@@ -42,7 +42,7 @@ export const housing = [
         cardImg: 'house'
     },
     {
-        housingType: 'apartment',
+        housingType: 'house',
         location: {
             city: 'Odense',
             street: 'Nyborgvej 13'
@@ -51,12 +51,12 @@ export const housing = [
         size: '65m3',
         rent: '7.000kr',
         contract: '',
-        shortInfo: 'this is apartment info, it is a very cool apartment',
+        shortInfo: 'this is house info, it is a very cool house',
         longInfo: '',
-        cardImg: 'apartment'
+        cardImg: 'house'
     },
     {
-        housingType: 'house',
+        housingType: 'apartment',
         location: {
             city: 'Aarhus',
             street: 'Hjortensgade 10'
@@ -65,9 +65,9 @@ export const housing = [
         size: '100m3',
         rent: '25.000kr',
         contract: '',
-        shortInfo: 'this is house info, it is a very cool house',
+        shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: '',
-        cardImg: 'house'
+        cardImg: 'apartment'
     },
     {
         housingType: 'apartment',

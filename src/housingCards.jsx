@@ -1,4 +1,6 @@
 import React, {useEffect} from 'react';
+import { useNavigate } from "react-router-dom";
+
 import Card from 'react-bootstrap/Card';
 import house from './assets/house.png'
 import apartment from './assets/apartment.png'
@@ -6,9 +8,16 @@ import './Styles.css'
 
 function HousingCard(housing) {
 
+    let navigate = useNavigate();
+
+    const toHousing = () => {
+        navigate("/info");
+    }
+
+
     return (
         <>
-            <Card style={{ width: '18rem' }} className='housingCard'>
+            <Card style={{ width: '18rem' }} className='housingCard' onClick={() => toHousing()}>
                 <Card.Img variant="top" src={housing?.housing.cardImg === 'house' ? house : apartment}/>
                 <Card.Body>
                     <Card.Title>{housing?.housing.rooms + ' | ' + housing?.housing.housingType + ' | ' + housing?.housing.size}</Card.Title>

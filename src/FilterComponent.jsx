@@ -3,14 +3,16 @@ import Form from 'react-bootstrap/Form';
 import SearchBar from "./SearchBar"
 import './Styles.css'
 
-const FilterComponent = () => {
+const FilterComponent = (props) => {
     const [houseFilter, setHouseFilter] = useState(false)
     const [apartmentFilter, setApartmentFilter] = useState(false)
     
     useEffect(() => {
-        console.log(houseFilter)
-        console.log(apartmentFilter)
-    }, [houseFilter, apartmentFilter])
+        let filterObj = {}
+        filterObj['apartment'] = apartmentFilter
+        
+        props.getFilters(filterObj)
+    }, [apartmentFilter])
 
 
     const changeHouseState = () => {
