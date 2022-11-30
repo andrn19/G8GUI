@@ -17,10 +17,28 @@ const CardGrouping = (props) => {
     useEffect(() => {
         console.log(props.filters)
         if (props.filters != undefined) {
-            console.log(Object.keys(props.filters)[0] == 'apartment' && props.filters.apartment == true)
+            let filtered
+
             if (Object.keys(props.filters)[0] == 'apartment' && props.filters.apartment == true) {
-                const filtered = housingData.filter((bolig) => bolig.housingType == 'apartment')
-                console.log(filtered)
+                if(filtered === undefined) {
+                    filtered = housingData.filter((bolig) => bolig.housingType == 'apartment')
+                }
+                else {
+                    filtered = filtered.filter((bolig) => bolig.housingType == 'apartment')
+                }
+            }
+            if (Object.keys(props.filters)[1] == 'contact' && props.filters.contact == true) {
+                if(filtered === undefined) {
+                    filtered = housingData.filter((bolig) => bolig.freeContact == true)
+                }
+                else {
+                   filtered = filtered.filter((bolig) => bolig.freeContact == true)
+                }
+            }
+            if (props.filters.apartment != true && props.filters.contact != true) {
+                setHousingData(housing)
+            }
+            else {
                 setHousingData(filtered)
             }
         }

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useEffect, useState } from "react"
 import Form from 'react-bootstrap/Form';
 import SearchBar from "./SearchBar"
 import './Styles.css'
@@ -6,17 +6,20 @@ import './Styles.css'
 const FilterComponent = (props) => {
     const [houseFilter, setHouseFilter] = useState(false)
     const [apartmentFilter, setApartmentFilter] = useState(false)
-    
+    const [freeContactFilter, setFreeContactFilter] = useState(false)
+
     useEffect(() => {
         let filterObj = {}
         filterObj['apartment'] = apartmentFilter
-        
+        filterObj['contact'] = freeContactFilter
+
+
         props.getFilters(filterObj)
-    }, [apartmentFilter])
+    }, [apartmentFilter, freeContactFilter])
 
 
-    const changeHouseState = () => {
-        setHouseFilter((s) => !s)
+    const changeFreecontcatState = () => {
+        setFreeContactFilter((s) => !s)
     }
 
     const changeApartmentState = () => {
@@ -34,7 +37,7 @@ const FilterComponent = (props) => {
             <input type="text" id="size" className="filterInput" name="size" />
             <label htmlFor="rooms">Nr. of Rooms:</label>
             <input type="text" id="rooms" className="filterInput" name="rooms" />
-            <br/>
+            <br />
             <Form.Check
                 inline
                 label="House"
@@ -57,6 +60,14 @@ const FilterComponent = (props) => {
                 name="terraceHouse"
                 type="checkbox"
                 id='terraceHouse'
+            />
+            <Form.Check
+                inline
+                label="Free Contact"
+                name="freeContact"
+                type="checkbox"
+                onChange={() => changeFreecontcatState()}
+                id='freeContact'
             />
         </div>
     )

@@ -11,7 +11,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'house'
+        cardImg: 'house',
+        freeContact: true
     },
     {
         housingType: 'apartment',
@@ -25,7 +26,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'apartment'
+        cardImg: 'apartment',
+        freeContact: false
     },
     {
         housingType: 'house',
@@ -39,7 +41,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'house'
+        cardImg: 'house',
+        freeContact: false
     },
     {
         housingType: 'house',
@@ -53,7 +56,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'house'
+        cardImg: 'house',
+        freeContact: true
     },
     {
         housingType: 'apartment',
@@ -67,7 +71,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'apartment'
+        cardImg: 'apartment',
+        freeContact: false
     },
     {
         housingType: 'apartment',
@@ -81,7 +86,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'apartment'
+        cardImg: 'apartment',
+        freeContact: false
     },
     {
         housingType: 'house',
@@ -95,7 +101,8 @@ export const housing = [
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'house'
+        cardImg: 'house',
+        freeContact: true
     },
     {
         housingType: 'apartment',
@@ -109,6 +116,7 @@ export const housing = [
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
         longInfo: 'This is very long detailed information text',
-        cardImg: 'apartment'
+        cardImg: 'apartment',
+        freeContact: true
     },
 ]
