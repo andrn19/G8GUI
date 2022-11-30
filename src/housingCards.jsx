@@ -11,6 +11,8 @@ function HousingCard(housing) {
     let navigate = useNavigate();
 
     const toHousing = () => {
+        const housingString = JSON.stringify(housing?.housing)
+        localStorage.setItem('housing', housingString)
         navigate("/info");
     }
 

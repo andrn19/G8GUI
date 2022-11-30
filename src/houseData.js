@@ -10,7 +10,7 @@ export const housing = [
         rent: '25.000kr',
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'house'
     },
     {
@@ -24,7 +24,7 @@ export const housing = [
         rent: '7.000kr',
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'apartment'
     },
     {
@@ -38,7 +38,7 @@ export const housing = [
         rent: '25.000kr',
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'house'
     },
     {
@@ -52,7 +52,7 @@ export const housing = [
         rent: '7.000kr',
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'house'
     },
     {
@@ -66,7 +66,7 @@ export const housing = [
         rent: '25.000kr',
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'apartment'
     },
     {
@@ -80,7 +80,7 @@ export const housing = [
         rent: '7.000kr',
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'apartment'
     },
     {
@@ -94,7 +94,7 @@ export const housing = [
         rent: '25.000kr',
         contract: '',
         shortInfo: 'this is house info, it is a very cool house',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'house'
     },
     {
@@ -108,7 +108,7 @@ export const housing = [
         rent: '7.000kr',
         contract: '',
         shortInfo: 'this is apartment info, it is a very cool apartment',
-        longInfo: '',
+        longInfo: 'This is very long detailed information text',
         cardImg: 'apartment'
     },
 ]
