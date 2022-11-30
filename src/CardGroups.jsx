@@ -42,9 +42,9 @@ const CardGrouping = (props) => {
     return (
         <Row xs={1} md={4} className="g-4">
             {
-                housingData.map((houseData) => (
-                    <Col>
-                        <HousingCard housing={houseData} />
+                housingData.map((houseData, i) => (
+                    <Col key={i}>
+                        <HousingCard housing={houseData}  />
                     </Col>
                 ))
             }
