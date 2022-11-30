@@ -59,7 +59,7 @@ form.searchForm button:hover {
 #landLord {
     position: absolute;
     right: 10%;
-    top: 65%;
+    top: 70%;
 }
 
 #contractBtn {
@@ -72,7 +72,7 @@ form.searchForm button:hover {
 
 #bigInfo {
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     left: 10%;
 }
 

@@ -29,6 +29,7 @@ const HousingPage = () => {
                 <SearchBar />
             </div>
             <div id='housingImg'>
+                <h2>{housing?.location.city + ' | ' + housing?.location.street}</h2> <br />
                 <img src={housing?.cardImg === 'house' ? house : apartment} width="500" height="300" />
             </div>
             <div id='housingPCard'>
@@ -39,7 +40,9 @@ const HousingPage = () => {
                             Price: {housing?.rent}
                         </Card.Text>
                         <Card.Text>
-                            {housing?.size}
+                            Type: {housing?.housingType}<br/>
+                            {housing?.size}<br/>
+                            Rooms: {housing?.rooms}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
